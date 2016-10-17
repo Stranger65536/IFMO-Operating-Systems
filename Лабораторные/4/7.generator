@@ -1,0 +1,15 @@
+#!/bin/bash
+while true; do
+	read op
+	case $op in
+		"+")
+			kill -USR1 $(cat 7.temp)
+			;;
+		"*")
+			kill -USR2 $(cat 7.temp)
+			;;
+		"TERM")
+			kill -SIGTERM $(cat 7.temp)
+			;;
+	esac
+done

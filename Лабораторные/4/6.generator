@@ -1,0 +1,12 @@
+#!/bin/bash
+while true; do
+	read l
+	case $l in
+		TERM)
+			kill -USR1 $(cat 6.temp)
+			;;
+		*)
+			:
+			;;
+	esac
+done

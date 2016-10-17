@@ -1,0 +1,44 @@
+These Windows services are started:
+
+   Application Experience Lookup Service
+   Application Layer Gateway Service
+   Automatic Updates
+   Background Intelligent Transfer Service
+   COM+ Event System
+   Computer Browser
+   Cryptographic Services
+   DCOM Server Process Launcher
+   DHCP Client
+   Distributed Link Tracking Client
+   Distributed Transaction Coordinator
+   DNS Client
+   Error Reporting Service
+   Event Log
+   Help and Support
+   IPSEC Services
+   Logical Disk Manager
+   Network Connections
+   Network Location Awareness (NLA)
+   Plug and Play
+   Print Spooler
+   Protected Storage
+   Remote Procedure Call (RPC)
+   Remote Registry
+   Secondary Logon
+   Security Accounts Manager
+   Server
+   Shell Hardware Detection
+   System Event Notification
+   Task Scheduler
+   TCP/IP NetBIOS Helper
+   Terminal Services
+   Themes
+   Windows Audio
+   Windows Firewall/Internet Connection Sharing (ICS)
+   Windows Management Instrumentation
+   Windows Time
+   Wireless Configuration
+   Workstation
+
+The command completed successfully.
+

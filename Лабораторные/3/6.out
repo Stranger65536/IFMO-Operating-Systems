@@ -1,0 +1,116 @@
+
+ProcessID=1 : Parent ProcessID=0 : Average Sleeping Time=1.421212
+ProcessID=2 : Parent ProcessID=0 : Average Sleeping Time=0.041211
+Average Sleeping Children of ParentID=0 is 0.487474
+ProcessID=1106 : Parent ProcessID=1 : Average Sleeping Time=0.074826
+ProcessID=1124 : Parent ProcessID=1 : Average Sleeping Time=1.699330
+ProcessID=1131 : Parent ProcessID=1 : Average Sleeping Time=1.799808
+ProcessID=1179 : Parent ProcessID=1 : Average Sleeping Time=0.421065
+ProcessID=1204 : Parent ProcessID=1 : Average Sleeping Time=0.080146
+ProcessID=1224 : Parent ProcessID=1 : Average Sleeping Time=0.100832
+ProcessID=1236 : Parent ProcessID=1 : Average Sleeping Time=0.111666
+ProcessID=1247 : Parent ProcessID=1 : Average Sleeping Time=0.116910
+ProcessID=1252 : Parent ProcessID=1 : Average Sleeping Time=0.128811
+ProcessID=1264 : Parent ProcessID=1 : Average Sleeping Time=0.679970
+ProcessID=1265 : Parent ProcessID=1 : Average Sleeping Time=0.118135
+ProcessID=1284 : Parent ProcessID=1 : Average Sleeping Time=0.450511
+ProcessID=1329 : Parent ProcessID=1 : Average Sleeping Time=0.178654
+ProcessID=1393 : Parent ProcessID=1 : Average Sleeping Time=0.462987
+ProcessID=1402 : Parent ProcessID=1 : Average Sleeping Time=0.214517
+ProcessID=1463 : Parent ProcessID=1 : Average Sleeping Time=0.110910
+ProcessID=1488 : Parent ProcessID=1 : Average Sleeping Time=0.317532
+ProcessID=1572 : Parent ProcessID=1 : Average Sleeping Time=0.650081
+ProcessID=1582 : Parent ProcessID=1 : Average Sleeping Time=5.517064
+ProcessID=1593 : Parent ProcessID=1 : Average Sleeping Time=0.577493
+ProcessID=1611 : Parent ProcessID=1 : Average Sleeping Time=1.079694
+ProcessID=1613 : Parent ProcessID=1 : Average Sleeping Time=0.883781
+ProcessID=1615 : Parent ProcessID=1 : Average Sleeping Time=0.033189
+ProcessID=1617 : Parent ProcessID=1 : Average Sleeping Time=0.375940
+ProcessID=1621 : Parent ProcessID=1 : Average Sleeping Time=0.290446
+ProcessID=1623 : Parent ProcessID=1 : Average Sleeping Time=0.299754
+ProcessID=1632 : Parent ProcessID=1 : Average Sleeping Time=0.325990
+ProcessID=1745 : Parent ProcessID=1 : Average Sleeping Time=0.264971
+ProcessID=437 : Parent ProcessID=1 : Average Sleeping Time=0.170666
+Average Sleeping Children of ParentID=1 is 0.604678
+ProcessID=1039 : Parent ProcessID=2 : Average Sleeping Time=0.302082
+ProcessID=10 : Parent ProcessID=2 : Average Sleeping Time=0.000000
+ProcessID=11 : Parent ProcessID=2 : Average Sleeping Time=0.001559
+ProcessID=1211 : Parent ProcessID=2 : Average Sleeping Time=0.027164
+ProcessID=1214 : Parent ProcessID=2 : Average Sleeping Time=0.004357
+ProcessID=1215 : Parent ProcessID=2 : Average Sleeping Time=0.005217
+ProcessID=1217 : Parent ProcessID=2 : Average Sleeping Time=0.000000
+ProcessID=1218 : Parent ProcessID=2 : Average Sleeping Time=0.000000
+ProcessID=1219 : Parent ProcessID=2 : Average Sleeping Time=0.001084
+ProcessID=1220 : Parent ProcessID=2 : Average Sleeping Time=0.001021
+ProcessID=1221 : Parent ProcessID=2 : Average Sleeping Time=0.003552
+ProcessID=12 : Parent ProcessID=2 : Average Sleeping Time=0.000389
+ProcessID=1325 : Parent ProcessID=2 : Average Sleeping Time=0.004527
+ProcessID=13 : Parent ProcessID=2 : Average Sleeping Time=0.044600
+ProcessID=14 : Parent ProcessID=2 : Average Sleeping Time=0.020295
+ProcessID=15 : Parent ProcessID=2 : Average Sleeping Time=0.000733
+ProcessID=16 : Parent ProcessID=2 : Average Sleeping Time=0.019026
+ProcessID=17 : Parent ProcessID=2 : Average Sleeping Time=0.000829
+ProcessID=18 : Parent ProcessID=2 : Average Sleeping Time=0.000690
+ProcessID=19 : Parent ProcessID=2 : Average Sleeping Time=0.013013
+ProcessID=20 : Parent ProcessID=2 : Average Sleeping Time=0.060443
+ProcessID=21 : Parent ProcessID=2 : Average Sleeping Time=0.000722
+ProcessID=22 : Parent ProcessID=2 : Average Sleeping Time=0.133492
+ProcessID=23 : Parent ProcessID=2 : Average Sleeping Time=0.006019
+ProcessID=24 : Parent ProcessID=2 : Average Sleeping Time=0.450461
+ProcessID=25 : Parent ProcessID=2 : Average Sleeping Time=0.031842
+ProcessID=262 : Parent ProcessID=2 : Average Sleeping Time=0.080193
+ProcessID=263 : Parent ProcessID=2 : Average Sleeping Time=0.054834
+ProcessID=26 : Parent ProcessID=2 : Average Sleeping Time=0.021277
+ProcessID=275 : Parent ProcessID=2 : Average Sleeping Time=0.065605
+ProcessID=27 : Parent ProcessID=2 : Average Sleeping Time=0.030257
+ProcessID=28 : Parent ProcessID=2 : Average Sleeping Time=0.008634
+ProcessID=29 : Parent ProcessID=2 : Average Sleeping Time=0.007906
+ProcessID=30 : Parent ProcessID=2 : Average Sleeping Time=0.002417
+ProcessID=31 : Parent ProcessID=2 : Average Sleeping Time=0.000747
+ProcessID=328 : Parent ProcessID=2 : Average Sleeping Time=0.135005
+ProcessID=330 : Parent ProcessID=2 : Average Sleeping Time=0.001674
+ProcessID=349 : Parent ProcessID=2 : Average Sleeping Time=0.167216
+ProcessID=350 : Parent ProcessID=2 : Average Sleeping Time=0.006968
+ProcessID=36 : Parent ProcessID=2 : Average Sleeping Time=0.000775
+ProcessID=38 : Parent ProcessID=2 : Average Sleeping Time=0.001809
+ProcessID=39 : Parent ProcessID=2 : Average Sleeping Time=0.002207
+ProcessID=3 : Parent ProcessID=2 : Average Sleeping Time=0.000000
+ProcessID=4 : Parent ProcessID=2 : Average Sleeping Time=0.030081
+ProcessID=5 : Parent ProcessID=2 : Average Sleeping Time=0.017229
+ProcessID=6 : Parent ProcessID=2 : Average Sleeping Time=0.018031
+ProcessID=70 : Parent ProcessID=2 : Average Sleeping Time=0.028492
+ProcessID=7 : Parent ProcessID=2 : Average Sleeping Time=0.042094
+ProcessID=8 : Parent ProcessID=2 : Average Sleeping Time=0.000000
+ProcessID=973 : Parent ProcessID=2 : Average Sleeping Time=0.140859
+ProcessID=993 : Parent ProcessID=2 : Average Sleeping Time=0.001242
+ProcessID=994 : Parent ProcessID=2 : Average Sleeping Time=0.000918
+ProcessID=9 : Parent ProcessID=2 : Average Sleeping Time=0.332946
+Average Sleeping Children of ParentID=2 is 0.044010
+ProcessID=1618 : Parent ProcessID=437 : Average Sleeping Time=0.742630
+ProcessID=1619 : Parent ProcessID=437 : Average Sleeping Time=0.413212
+Average Sleeping Children of ParentID=437 is 0.577921
+ProcessID=1259 : Parent ProcessID=1247 : Average Sleeping Time=0.409443
+Average Sleeping Children of ParentID=1247 is 0.409443
+ProcessID=1266 : Parent ProcessID=1265 : Average Sleeping Time=0.060903
+Average Sleeping Children of ParentID=1265 is 0.060903
+ProcessID=1403 : Parent ProcessID=1402 : Average Sleeping Time=0.139630
+Average Sleeping Children of ParentID=1402 is 0.139630
+ProcessID=1443 : Parent ProcessID=1403 : Average Sleeping Time=0.034487
+ProcessID=1446 : Parent ProcessID=1403 : Average Sleeping Time=0.230369
+Average Sleeping Children of ParentID=1403 is 0.132428
+ProcessID=1580 : Parent ProcessID=1572 : Average Sleeping Time=0.214440
+ProcessID=1581 : Parent ProcessID=1572 : Average Sleeping Time=0.433849
+Average Sleeping Children of ParentID=1572 is 0.324144
+ProcessID=1699 : Parent ProcessID=1611 : Average Sleeping Time=0.686320
+Average Sleeping Children of ParentID=1611 is 0.686320
+ProcessID=1798 : Parent ProcessID=1613 : Average Sleeping Time=0.681873
+Average Sleeping Children of ParentID=1613 is 0.681873
+ProcessID=1832 : Parent ProcessID=1699 : Average Sleeping Time=0.624228
+ProcessID=1832 : Parent ProcessID=1699 : Average Sleeping Time=0.624228
+ProcessID=1832 : Parent ProcessID=1699 : Average Sleeping Time=0.624228
+Average Sleeping Children of ParentID=1699 is 0.624228
+ProcessID=1821 : Parent ProcessID=1798 : Average Sleeping Time=0.953468
+Average Sleeping Children of ParentID=1798 is 0.953468
+ProcessID=1835 : Parent ProcessID=1832 : Average Sleeping Time=0.265525
+ProcessID=1836 : Parent ProcessID=1832 : Average Sleeping Time=0.014388
+Average Sleeping Children of ParentID=1832 is 0.139956

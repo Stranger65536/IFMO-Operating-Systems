@@ -1,0 +1,8 @@
+2.1
+hostname
+2.2
+timeout /t 60
+setlocal enabledelayedexpansion
+for /r C:\cd %%a in (*) do	(set /a size=%%~Za
+if !size! GTR 2097152 copy /Z %%a \\HOME-C8C85CC7B7\temp )
+setlocal disabledelayedexpansion

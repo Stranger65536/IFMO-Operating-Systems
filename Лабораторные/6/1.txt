@@ -1,0 +1,15 @@
+1.1
+cd /d C:\
+mkdir lab6
+cd lab6
+ver > ver.txt
+mem > mem.txt
+echo "list "disk" | diskpart > diskpart.txt
+1.2
+mkdir test
+xcopy * test
+1.3
+copy *.txt info.txt
+1.4
+del ver.txt mem.txt diskpart.txt
+1.5 (этот файл)

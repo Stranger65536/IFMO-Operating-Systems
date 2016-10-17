@@ -1,0 +1,51 @@
+#!/bin/bash
+echo $$ > 7.temp
+res=1
+out=""
+flag="false"
+catchPlus()
+{
+	mode="plus"
+	flag="true"
+}
+catchMultiply()
+{
+	mode="mul"
+	flag="true"
+}
+catchTermination()
+{
+	mode="term"
+}
+trap 'catchPlus' USR1
+trap 'catchMultiply' USR2
+trap 'catchTermination' SIGTERM
+while true; do
+	out=""
+	case $mode in
+		"plus")
+		 	if [[ "$flag" == "true" ]]; then 
+				out="$res + 2"
+				let res=$res+2
+				out="$out = $res"
+				echo -e "$out"
+				flag="false"
+			fi
+			;;
+		"mul")
+			if [[ "$flag" == "true" ]]; then
+				out="$res * 2"
+				let res=$res*2
+				out="$out = $res"
+				echo -e "$out"
+				flag="false"
+			fi
+			;;
+		"term") 
+			echo "Terminated by signal"
+			exit
+			;;
+	esac
+	echo "Current value is $res"
+	sleep 1
+done

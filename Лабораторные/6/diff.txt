@@ -1,0 +1,10 @@
+Сравнение файлов services.txt и SERVICES.NEW.TXT
+***** services.txt
+   Distributed Transaction Coordinator
+   DNS Client
+   Error Reporting Service
+***** SERVICES.NEW.TXT
+   Distributed Transaction Coordinator
+   Error Reporting Service
+*****
+

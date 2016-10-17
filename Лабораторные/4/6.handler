@@ -1,0 +1,22 @@
+#!/bin/bash
+echo $$ > 6.temp
+count=0
+mode="work"
+catch()
+{
+	mode="stop"
+}
+trap 'catch' USR1
+while true; do
+	case $mode in
+		"work")
+			let count=$count+1
+			echo $count
+			;;
+		"stop")
+			echo "Terminated by signal"
+			exit
+			;;
+	esac
+	sleep 1
+done

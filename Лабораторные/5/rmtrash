@@ -1,0 +1,26 @@
+#!/bin/bash
+trashFolder=$HOME/.trash
+logFile=$HOME/.trash.log
+tempFile=$HOME/.trash/trashCount.log
+if [ $# -ne 1 ]; then
+	echo "no file to trash"
+	exit 1
+fi
+if [ ! -d $trashFolder ]; then
+	mkdir $trashFolder
+	touch $tempFile
+	chmod 666 $tempFile
+	echo "0" > $tempFile
+fi
+if [ -f $1 ]; then
+	count=$(cat $tempFile)
+	ln $1 $trashFolder/$count
+	rm $1
+	path=$(pwd)
+	echo "$path:$1:$count" >> $logFile
+	let count=$count+1
+	echo $count > $tempFile
+else
+	echo "file does not exists"
+fi
+

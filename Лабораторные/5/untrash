@@ -1,0 +1,51 @@
+#!/bin/bash
+trashFolder=$HOME/.trash
+logFile=$HOME/.trash.log
+logFile2='$logFile'0
+flag="false"
+if [ $# -ne 1 ]; then
+	echo "no file to untrash"
+	exit 1
+fi
+for i in $(grep -h $1 $logFile)
+do
+	fullRepresentation=$i
+	filePath=$(echo $i | awk -F ':' '{print $1}')
+	fileName=$(echo $i | awk -F ':' '{print $2}')
+	fileID=$(echo $i | awk -F ':' '{print $3}')
+	removedFile=$trashFolder/$fileID
+	if [ -e $removedFile ]; then
+		if [ $fileName == $1 ]; then
+			flag="true"
+			echo "Restore file $filePath/$fileName? (Y/n)"
+			read answer
+			if [ "$answer" != "n" ]; then
+				if [ -d $filePath ]; then
+					if [ -e $filePath/$fileName ]; then
+						echo "File already exists. Enter new name"
+						read name
+						if [ "$answer" != "" ]; then
+							ln $removedFile $filePath/$name
+						else
+							echo "skip"
+							continue
+						fi
+					else
+						ln $removedFile $filePath/$fileName
+					fi
+				else
+					mkdir -p "$filePath"
+					ln $removedFile $filePath/$fileName
+				fi
+				rm $removedFile
+				grep -v $fullRepresentation $logFile > $logFile2
+				mv $logFile2 $logFile
+			fi
+		fi	
+	else
+		echo "trash error"
+	fi
+done
+if [ $flag == "false" ]; then
+	echo "this file has not been deleted"
+fi

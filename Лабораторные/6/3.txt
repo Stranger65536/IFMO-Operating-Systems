@@ -1,0 +1,10 @@
+net stat > services.txt
+
+net stop "DNS Client"
+timeout 10
+net start > services.new.txt
+call 3.3.3.bat
+net start "DNS Client"
+
+fc services.txt services.new.txt
+exit /b

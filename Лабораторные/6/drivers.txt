@@ -1,0 +1,109 @@
+WLBS         Network Load Balancing Kernel        17.02.2007 7:27:46    
+wdmaud       Microsoft WINMM WDM Au Kernel        17.02.2007 7:30:05    
+Wanarp       Remote Access IP ARP D Kernel        17.02.2007 6:59:17    
+VolSnap      Storage volumes        Kernel        17.02.2007 7:08:23    
+VgaSave      VGA Display Controller Kernel        17.02.2007 7:10:30    
+vga          vga                    Kernel        17.02.2007 7:10:30    
+usbohci      Microsoft USB Open Hos Kernel        17.02.2007 7:13:01    
+usbhub       USB2 Enabled Hub       Kernel        17.02.2007 7:13:05    
+usbehci      Microsoft USB 2.0 Enha Kernel        17.02.2007 7:12:56    
+Update       Microcode Update Drive Kernel        17.02.2007 7:28:59    
+Udfs         Udfs                   File System   17.02.2007 6:50:32    
+TermDD       Terminal Device Driver Kernel        17.02.2007 6:44:32    
+TDTCP        TDTCP                  Kernel        17.02.2007 6:44:32    
+TDPIPE       TDPIPE                 Kernel        17.02.2007 6:44:31    
+Tcpip        TCP/IP Protocol Driver Kernel        17.02.2007 7:28:05    
+sysaudio     Microsoft Kernel Syste Kernel        17.02.2007 7:28:59    
+swmidi       Microsoft Kernel GS Wa Kernel        17.02.2007 7:12:16    
+swenum       Software Bus Driver    Kernel        17.02.2007 7:05:56    
+Srv          Srv                    File System   17.02.2007 7:27:20    
+splitter     Microsoft Kernel Audio Kernel        17.02.2007 7:12:16    
+Sfloppy      Sfloppy                Kernel        25.03.2003 8:05:20    
+Serial       Serial                 Kernel        17.02.2007 7:06:46    
+Secdrv       Secdrv                 Kernel        31.08.2004 15:42:55   
+redbook      Digital CD Audio Playb Kernel        17.02.2007 7:07:26    
+RDPWD        RDPWD                  Kernel        17.02.2007 6:44:38    
+rdpdr        Terminal Server Device Kernel        17.02.2007 6:51:00    
+RDPCDD       RDPCDD                 Kernel        25.03.2003 8:03:05    
+Rdbss        Rdbss                  File System   17.02.2007 7:27:37    
+Raspti       Direct Parallel        Kernel        17.02.2007 6:59:23    
+RasPppoe     Remote Access PPPOE Dr Kernel        17.02.2007 6:59:23    
+Rasl2tp      WAN Miniport (L2TP)    Kernel        17.02.2007 7:29:02    
+RasAcd       Remote Access Auto Con Kernel        25.03.2003 8:11:50    
+Ptilink      Direct Parallel Link D Kernel        17.02.2007 7:06:38    
+PptpMiniport WAN Miniport (PPTP)    Kernel        17.02.2007 7:29:20    
+PCnet        PCNET Adapter Driver   Kernel        07.07.2004 21:03:03   
+Pcmcia       Pcmcia                 Kernel        17.02.2007 6:59:01    
+PCI          PCI Bus Driver         Kernel        17.02.2007 6:59:03    
+Parvdm       Parvdm                 Kernel        25.03.2003 8:03:49    
+PartMgr      Partition Manager      Kernel        17.02.2007 7:29:25    
+Parport      Parallel port driver   Kernel        17.02.2007 7:06:42    
+Null         Null                   Kernel        25.03.2003 8:03:05    
+Ntfs         Ntfs                   File System   17.02.2007 7:27:23    
+Npfs         Npfs                   File System   17.02.2007 6:50:36    
+NetBT        NetBios over Tcpip     Kernel        17.02.2007 7:28:57    
+NetBIOS      NetBIOS Interface      File System   17.02.2007 6:58:29    
+NDProxy      NDIS Proxy             Kernel        17.02.2007 6:59:21    
+NdisWan      Remote Access NDIS WAN Kernel        17.02.2007 7:29:22    
+Ndisuio      NDIS Usermode I/O Prot Kernel        17.02.2007 6:58:25    
+NdisTapi     Remote Access NDIS TAP Kernel        17.02.2007 6:59:19    
+NDIS         NDIS System Driver     Kernel        17.02.2007 7:28:49    
+mvxxmm       mvxxmm                 Kernel        07.06.2012 5:10:37    
+mv64xxmm     mv64xxmm               Kernel        27.10.2009 3:03:18    
+mv61xxmm     mv61xxmm               Kernel        24.05.2012 5:53:37    
+Mup          Mup                    File System   17.02.2007 7:27:41    
+mssmbios     Microsoft System Manag Kernel        17.02.2007 6:59:12    
+MSPQM        Microsoft Streaming Qu Kernel        17.02.2007 7:05:54    
+MSPCLOCK     Microsoft Streaming Cl Kernel        17.02.2007 7:05:50    
+MSKSSRV      Microsoft Streaming Se Kernel        17.02.2007 7:05:55    
+Msfs         Msfs                   File System   17.02.2007 6:50:33    
+MRxSmb       MRXSMB                 File System   17.02.2007 7:28:15    
+MRxDAV       WebDav Client Redirect File System   17.02.2007 6:50:49    
+MountMgr     Mount Point Manager    Kernel        17.02.2007 7:05:35    
+Mouclass     Mouse Class Driver     Kernel        25.03.2003 8:03:09    
+Modem        Modem                  Kernel        17.02.2007 7:01:30    
+mnmdd        mnmdd                  Kernel        25.03.2003 8:07:53    
+KSecDD       KSecDD                 Kernel        17.02.2007 6:46:32    
+kmixer       Microsoft Kernel Wave  Kernel        17.02.2007 7:12:15    
+Kbdclass     Keyboard Class Driver  Kernel        17.02.2007 7:05:39    
+isapnp       PnP ISA/EISA Bus Drive Kernel        17.02.2007 6:58:57    
+IPSec        IPSEC driver           Kernel        17.02.2007 7:29:28    
+IpNat        IP Network Address Tra Kernel        17.02.2007 6:59:08    
+IpFilterDriv IP Traffic Filter Driv Kernel        17.02.2007 6:59:05    
+Ip6Fw        IPv6 Windows Firewall  Kernel        17.02.2007 6:56:24    
+IntelIde     IntelIde               Kernel        17.02.2007 7:07:32    
+imapi        CD-Burning Filter Driv Kernel        17.02.2007 7:08:22    
+i8042prt     i8042 Keyboard and PS/ Kernel        17.02.2007 7:30:40    
+HTTP         HTTP                   Kernel        17.02.2007 7:28:12    
+Gpc          Generic Packet Classif Kernel        17.02.2007 6:58:37    
+Ftdisk       Volume Manager Driver  Kernel        17.02.2007 7:08:05    
+FltMgr       FltMgr                 File System   17.02.2007 6:51:08    
+Flpydisk     Flpydisk               Kernel        25.03.2003 8:04:32    
+Fips         Fips                   Kernel        17.02.2007 7:26:33    
+Fdc          Fdc                    Kernel        17.02.2007 7:07:16    
+Fastfat      Fastfat                File System   17.02.2007 7:27:55    
+drmkaud      Microsoft Kernel DRM A Kernel        25.03.2003 8:09:54    
+DMusic       Microsoft Kernel DLS S Kernel        17.02.2007 7:11:55    
+dmload       dmload                 Kernel        25.03.2003 8:08:08    
+dmio         Logical Disk Manager D Kernel        17.02.2007 7:10:44    
+dmboot       dmboot                 Kernel        17.02.2007 7:10:48    
+Disk         Disk Driver            Kernel        17.02.2007 7:07:51    
+DfsDriver    DfsDriver              File System   17.02.2007 6:51:17    
+crcdisk      CRC Disk Filter Driver Kernel        17.02.2007 7:09:50    
+Compbatt     Microsoft Composite Ba Kernel        17.02.2007 6:58:51    
+CmBatt       Microsoft AC Adapter D Kernel        17.02.2007 6:58:51    
+ClusDisk     Cluster Disk Driver    Kernel        17.02.2007 7:02:55    
+Cdrom        CD-ROM Driver          Kernel        17.02.2007 7:07:48    
+Cdfs         Cdfs                   File System   17.02.2007 7:27:08    
+cbidf2k      cbidf2k                Kernel        25.03.2003 8:05:00    
+Beep         Beep                   Kernel        25.03.2003 8:03:04    
+audstub      Audio Stub Driver      Kernel        25.03.2003 8:09:12    
+Atmarpc      ATM ARP Client Protoco Kernel        17.02.2007 6:54:34    
+atapi        Standard IDE/ESDI Hard Kernel        17.02.2007 7:07:34    
+AsyncMac     RAS Asynchronous Media Kernel        25.03.2003 8:11:27    
+AFD          AFD                    Kernel        17.02.2007 7:28:16    
+aec          Microsoft Kernel Acous Kernel        29.09.2004 19:24:23   
+ACPIEC       ACPIEC                 Kernel        25.03.2003 8:16:26    
+ACPI         Microsoft ACPI Driver  Kernel        17.02.2007 6:58:47    
+ac97intc     Intel(r) 82801 Audio D Kernel        05.06.2002 19:27:15   
+

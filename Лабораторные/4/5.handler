@@ -1,0 +1,48 @@
+#!/bin/bash
+op="+"
+res="1"
+out=""
+(tail -n 0 -f 5.temp) |
+while true; do
+	read val;
+	out=""
+	if [[ "$val" == "+" ]]
+	then
+		op="+"
+		echo "operator changed to +"
+	elif [[ "$val" == "*" ]]
+	then
+		op="*"
+		echo "operator changed to *"
+	elif [[ "$val" =~ [0-9]+ ]]
+	then
+		case $op in
+			"+")
+				out="$res + $val"
+				let res=$res+$val
+				out="$out = $res"
+				echo "$out"
+				;;
+			"*")
+				out="$res * $val"
+				let res=$res*$val
+				out="$out = $res"
+				echo "$out" 
+				;;
+		esac
+	elif [[ "$val" == "quit" ]]
+	then
+		echo "Normal quit"
+		killall tail
+		exit 0
+	elif [[ "$val" == "QUIT" ]]
+	then
+		echo "Normal quit"
+		killall tail
+		exit 0
+	else
+		echo "Terminated"
+		killall tail
+		exit 1
+	fi
+done
